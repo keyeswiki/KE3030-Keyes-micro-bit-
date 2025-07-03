@@ -1,7 +1,7 @@
-# FAQ
+# 5. FAQ
 
 
-## 更新您的micro:bit固件
+## 5.1 更新您的micro:bit固件
 
 什么是micro:bit固件?
 
@@ -81,13 +81,7 @@ URL: https://microbit.org/device/?id=9904&v=0254
 如果出于任何原因希望用回原来的固件，可以下载以前的版本。
 
 
-
-
-
-
-
-
-## 关于Microbit无法下载程序，盘符显示MAINTENANCE的解决方法
+## 5.2 关于Microbit无法下载程序，盘符显示MAINTENANCE的解决方法
 
 问题现象：
 
@@ -124,13 +118,7 @@ URL: https://microbit.org/device/?id=9904&v=0254
 3.在实验过程中，接线接错，导致短路，也有可能导致micro:bit固件丢失，新手操作一定要注意。
 
 
-
-
-
-
-
-
-## 使用 WebUSB 进行下载的故障排除
+## 5.3 使用 WebUSB 进行下载的故障排除
 
 Micro：bit与WebUSB（/ device / usb /webusb）配对时遇到问题？让我们尝试找出原因。
 

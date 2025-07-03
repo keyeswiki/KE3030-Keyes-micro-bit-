@@ -1,11 +1,11 @@
-# Makecode 课程
+# 3. Makecode 课程
 
-## 代码与编程：
+## 3.1 代码与编程
 
 以下的步骤说明基于Windows
 操作系统，如果你使用的是其他操作系统，可以将其作为参考。
 
-### 1快速开始： 
+### 1.快速开始
 
 本节介绍如何为micro:bit编写程序以及如何将其下载到micro:bit主板。micro:bit官方网站上有非常详细的教程，你可以参考：[https://microbit.org/guide/quick/](https://microbit.org/guide/quick/)
 
@@ -97,7 +97,7 @@ Step5：掌握：
 
 本小节向你展示了如何开始使用micro:bit主板，但是除了MakeCode图形化编程之外，你还可以使用其他语言来编写micro:bit的程序代码。转到链接：[https://microbit.org/code/](https://microbit.org/code/)查看不同的语言编程，或查看链接：[https://microbit.org/projects/](https://microbit.org/projects/)，了解你可能想要尝试的一些内容。
 
-### 2.Makecode：
+### 2.Makecode
 
 在Google Chrome访问链接：<https://makecode.microbit.org/>，打开makecode在线版本。或打开
 Windows 10 App makecode版本。
@@ -136,7 +136,7 @@ Simulator
 
 上电或复位后，“当开机时”指令方块中的代码将仅执行一次；并且“无限循环”指令方块中的代码将循环执行。
 
-### 3.快速下载：
+### 3.快速下载
 
 如前所述，如果使用makecode的Windows 10 App，则可以通过单击“下载”按钮将代码快速下载到micro:bit主板。
 
@@ -181,11 +181,11 @@ Simulator
 
 ![](media/96fbd5a50eb87de8ad464cbbd09624f1.png)
 
-### 4.Makecode扩展库：
+### 4.Makecode扩展库
 
 为了轻松使用microbit智能家居，我们为microbit智能家居制作了一个makecode扩展库
 
-#### 添加microbit智能家居扩展库：
+#### 添加microbit智能家居扩展库
 
 您可以通过以下方法添加microbit智能家居扩展库文件。
 
@@ -228,7 +228,7 @@ Simulator
 
 ![](media/548677a2ca3555dee3d0b8601f976a1e.png)
 
-### 4.资源和代码：
+### 5.资源和代码：
 
 该工具包的资源和代码可以在下面链接下载：
 
@@ -240,7 +240,7 @@ Simulator
 
 ![](media/84c59378cab17c929b3518bec5b30c0c.png)
 
-### 5.导入代码：
+### 6.导入代码：
 
 我们为每个项目提供十六进制代码文件（项目文件）。十六进制代码文件包含项目的所有内容，可以直接导入，你也可以手动拖动代码块来完成每个项目的代码程序。如果选择通过手动拖动代码块来完成项目代码，则可能需要添加必要的扩展库。
 
@@ -276,7 +276,7 @@ Simulator
 
 注意：如果你的电脑系统是Windows7/8而不是Windows 10，则在Google Chrome中是无法进行设备配对，从而读取不了一些传感器/模块的数字信号或模拟信号，可是又需要读取相应的传感器/模块的数字信号或模拟信号，那怎么办呢？这里就可以使用CoolTerm软件来读取串口数据的，下面是CoolTerm安装方法。
 
-### 6.CoolTerm软件安装方法：
+### 7.CoolTerm软件安装方法：
 
 这里需要安装CoolTerm程序软件，CoolTerm程序软件是用来在下面的一些实验中读取串口通讯的，这里我们提供了CoolTerm程序软件的下载链接：<https://freeware.the-meiers.org/>
 
@@ -305,415 +305,7 @@ Simulator
 |![](media/36e13c266fd4b9723d9db40fe30cd203.png)|以十六进制格式显示终端数据|
 |![](media/b505c71c3344036730b1d67f0c62a354.png)|帮助|
 
-## micro:bit智能家居安装部分：
-
-安装1
-
-安装所需零件
-
-![](media/bd7f819e3f124cc1344695b0c956cc7d.png)
-
-安装
-
-![](media/c737eb7d3d7c409cca86f2261b994365.png)
-
-完成
-
-![](media/f4080989a9c22fab97bb7f84ff1509fb.jpeg)
-
-安装2
-
-安装所需零件
-
-![](media/62acfdb7c772653ea06bee35dc66c138.png)
-
-安装
-
-![](media/3fc6a4b14728e2e0a8e67999f0a70a51.png)
-
-完成
-
-![](media/79b04b018914a71a0de8d29ed9394846.png)
-
-先将LCD的线插上（避免拼装后LCD不好插线）
-
-![](media/33f1008aa2a1975dc3d95f5f03504f8c.png)
-
-安装3
-
-安装所需零件
-
-![](media/03eed6223ea2013f2bc1fd080a2a56ec.png)
-
-安装
-
-![](media/f9b1fcb90efafc91cb2bf9b9fc34a6fc.png)
-
-完成
-
-![](media/75cb5847631caf1d6582e1df62b10d9a.png)![](media/df258a6621e9a244d5a072879159b0c9.png)
-
-示例代码：代码路径：2. Makecode 课程\Makecode 代码\Microbit
-基础课程![](media/74539978c4c65b94151c68379df1cb09.png)
-
-![](media/74148846f4d17d3b2011d0aa90b301e1.png)
-
-将示例代码上传到micro:bit主板上，上传成功后，舵机的角度就被调到0°位置。
-这一步很重要！！
-
-安装4
-
-安装所需零件
-
-![](media/5913f82d1f9fb36682499fd53084c8d0.png)
-
-安装
-
-![](media/69e6a30dc8175dfb72c8a1a11e461b0b.png)
-
-完成
-
-![](media/bfff6a435be7e0e1b2214a551b7f0a44.png)
-
-安装5
-安装所需零件
-
-![](media/87934fec14684d9d4bbdd0db0a2e9fb3.png)
-
-安 装
-
-![](media/81dba837f13669b9b60f8dd64a6eecd4.png)
-
-完成
-
-![](media/26e87f7ef4244083e892abf357636970.png)
-
-安装6
-安装所需零件
-
-![](media/32576ee8bb8b37084308a2019239752e.png)
-
-安 装（安装自锁螺母时不可拧紧）
-
-![](media/2ba03eb4ed6f19b80d3cf25900343f8f.png)
-
-完成
-
-![](media/92f9f949c080cc89f298781be7532e05.jpeg)
-
-安装7
-安装所需零件
-
-![](media/bdbb19e48b18ebb5774ba00a310d483a.png)
-
-安装
-
-![](media/f11ae43a459c9d90cf2b37499696d940.png)
-
-完成
-
-![](media/94266e752e4ca3305049245adf19f8fc.png)
-
-安装8
-安装所需零件
-
-![](media/c882f29f3b57cf5d77e44d65ecbf2c12.png)
-
-安装
-
-![](media/09d88864917df266bb328b21cbb024c9.png)
-
-完成
-
-![](media/f23f018c08335097034fb8997113d98a.png)
-
-安装9
-安装所需零件
-
-![](media/6359a9df854be1c035ba662e04f184f2.png)
-
-安装
-
-![](media/4652a40ef641db9cd104e1e2450df4c2.png)
-
-完成
-
-![](media/64eeb10c0fc85af0fbecfcc4464de0f7.png)
-
-安装10
-安装所需零件
-
-![](media/3d6bcb06d24fbbd14eab1b2a0dcb814c.png)
-
-安装（注意太阳能板粘贴在划线之上）
-
-![](media/508437ed74e467c8f82b82263ae29fa7.jpeg)
-
-完成
-
-![](media/ecf4b3efdabfe913bb55e81d045f092b.jpeg)
-
-安装11
-安装所需零件
-
-![](media/aa859f6fde165286b049fcc95fed5e5b.png)
-
-安装
-
-![](media/fb16dd4936c7d0ed49a1c67fd8b58c5b.png)
-
-完成
-
-![](media/299b316c713a3b56d5d28de5bcd4ea97.jpeg)
-
-安装12
-
-安装所需零件
-
-![](media/86e5e0115c255afe46fdcf46d974d1a1.png)
-
-安装
-
-![](media/536910b47f15688eff29cf522a26d67f.png)
-
-完成
-
-![](media/86370939983a6a5080969b61175153b5.png)
-
-安装13
-
-安装所需零件
-
-![](media/3d2a61a43d6d086f9a077d0678375437.png)
-
-安装
-
-![](media/0d76a5e422701b118967f822a7e0b470.png)
-
-完成
-
-![](media/cc14522c5dabc171db471f6e3be8a6f2.png)
-
-安装14
-
-安装所需零件
-
-![](media/3d8b0373e72944b4494df9f89988d7e3.png)
-
-安装
-
-![](media/2e1a522076ca19dd8924f93c84b9d35c.png)
-
-完成
-
-![](media/8dc45be08b7abe78f2a909d97bcd5091.png)
-
-安装15
-
-安装所需零件
-
-![](media/fbc0b41970d0e9e906a10782cb2d9224.png)
-
-安装
-
-![](media/53f9c4b891af8e3565740f17a6a93569.png)
-
-完成
-
-![](media/56acb557881f67342f26b16cf6fa660f.png)
-
-安装16
-安装所需零件
-
-![](media/aae2c6783f7d47b047e8949080515c24.jpeg)
-
-安装
-
-![](media/d3a4d49d710206357e2ae7d34888e077.jpeg)
-
-完成
-
-![](media/ab8c06e24f7dfee541a81069a4b7c6f0.jpeg)
-
-安装17
-
-安装所需零件
-
-![](media/bca3c93d9a0433d9414d03eae9a9c57d.png)
-
-安装
-
-![](media/bfbd65da9a535cf5af73b2a3d655752b.png)
-
-完成
-
-![](media/3451406eeb4572f11a12fe914e1a4ce5.png)
-
-安装18
-
-安装所需零件
-
-![](media/75a38bd49c4f6eda5dec833063c74522.png)
-
-安装
-
-![](media/b69d6cb9a87bd3c9c1a7135758764128.png)
-
-完成
-
-![](media/35aa3743ee713cb0a7b710beda8b6163.png)
-
-安装19
-
-安装所需零件
-
-![](media/716f8d82be7146430f065338cd9d26ea.png)
-
-安装
-
-![](media/aa12cca5aa60bb0d84a36767ea21d414.png)
-
-完成
-
-![](media/74e46ec89eb9e5c0bbc80eec023b9a80.jpeg)
-
-安装20
-
-安装所需零件
-
-![](media/57fd53505fcd9382db8179f73b87aded.png)
-
-安装
-
-![](media/bac9697e9ffbbee927d5f14c2305e0dd.png)
-
-完成
-
-![](media/ba689c84dca87e3e0ac3c09b76bec7cb.png)
-
-安装21
-
-安装所需零件
-
-![](media/23e9feb41402f37200129a569a4a03b2.png)
-
-安装
-
-![](media/c2edf8a85074287ac9cab45b396ba57d.png)
-
-完成
-
-![](media/c42cf61ec4576f2b413fba4a6133fb2f.png)
-
-安装到此即可开始接线
-
-电池盒接线
-
-![](media/ddf9c79a39b281683b5183c5dd78edd7.jpeg)![](media/8d713b2796d0d23e607dd022d07af196.jpeg)![](media/657ed4597ba494f20ea51c3285e6176c.jpeg)
-
-黄色LED灯接线
-
-![](media/f2e44a32fd5a16c039ad7f22f7c7752e.jpeg)![](media/61b9a0d2224252b60e413836fec3dcd9.jpeg)
-
-![](media/598d38d2deb9eca2a6044d1e3e1aa473.png)![](media/1b75ff37c28a8008ad7c2dbe3408a9df.png)
-
-RGB模块接线
-
-![](media/6961aeb8f352d779e218b775a9a65442.jpeg)![](media/d50367badd593eb2ba16218b78e3038d.jpeg)
-
-![](media/c8dda1b7fd3fd607f4091fd5c3f4c908.png)![](media/3600c157da2ebf0ef3b98dcb0cc32fb2.png)
-
-人体红外接线
-
-![](media/00c1eeda720754f6f8ed85487feae809.jpeg)![](media/76641acb6917fad0bace4638ba2341c1.jpeg)
-
-![](media/94d75ce428c5df3bc92931dbf1fe0ef7.png)![](media/e33ebccbc7750ff556d99b6c378e12fc.png)
-
-1602LCD模块接线
-
-![](media/a73ed540e4cfc613273da9ff18f7d5ca.jpeg)![](media/07cfd28872a0ecf57670f54af0a8f657.jpeg)
-
-![](media/511f703bd0364743ec43621a60105476.png)
-
-模拟气体传感器(这里只使用了数字信号，
-如果需要可以自己选择模拟信号)
-
-![](media/15637edaed68a9156a38762d3c9e6c03.jpeg)![](media/95956ef2abf555874f3461db0305a635.jpeg)
-
-![](media/d1870858cec0b8a736ec25ff86136048.png)![](media/d709e782d996e3ab40945c59433caca8.png)
-
-温湿度传感器接线
-
-![](media/8a1fabad8c88e12c2f6c84564b41cca4.jpeg)![](media/81787fc59e82bc9837e4673c550e7a83.jpeg)
-
-![](media/2e24977a0232862d323ec56b017ba8d1.png)![](media/b6a80d0bcb968495fa23c322ad305cbc.png)
-
-门舵机接线
-
-![](media/1c3e0c16b5de6e77117385cf85119549.jpeg)
-
-![](media/4ff0744406f9721490ab99502d9c71ad.png)![](media/8d3b7f0af113729da0ceb620163263ba.png)
-
-窗舵机接线
-
-![](media/e346bb8121972ef12e33b41678dd8b47.jpeg)![](media/e365ca56dd6769910d6046d7ddeae7dc.jpeg)
-
-![](media/ae748de096ffb7ec57ffd9a8c362b2b0.png)![](media/8d3b7f0af113729da0ceb620163263ba.png)
-
-太阳能板接线
-
-![](media/e75daa1718df86f725f5052bce4c77c0.jpeg) ![](media/456130739080a2ebf91eee0fa58b17d5.jpeg)
-
-![](media/b5f836a87def9e3545886f6da3067551.jpeg)
-
-充放电模块电源接线图
-
-![](media/47f1e3b8b0d9acb6c06dd5ea637d0ab0.jpeg) ![](media/6eee7e6cf138b0b8e82b59dea1945244.jpeg)
-
-![](media/6f304d5317fb732a274455f5dc5e8e59.jpeg) ![](media/832f2d9adf7cda9859f245d075039aff.jpeg)
-
-电机模块接线
-
-![](media/2d5aa6308c1d0c23f75ebebb93ef34a5.jpeg) ![](media/aee25537d3667cd0927655a71202e675.jpeg)
-
-![](media/a04b842ebfdc1c5fedce061211eebefe.png)![](media/6d454cc922ceff4087d9ab1e5ccf030f.png)
-
-水滴传感器接线
-
-![](media/3b2036e0cad86b705b462d4c521c0163.jpeg)![](media/5e6e1a4c34e49cd85aba102fe501acf3.png)
-
-![](media/a839b9a1762d325f3600e61f6828f959.png)![](media/389486699548b77a36f4d16b660b3595.png)
-
-接完线后最后安装顶板
-安装所需零件
-
-![](media/74e50015ffc5377afbabcbb89c0f40c4.png)
-
-安装1
-
-![](media/8adcdf8d2daf9d6338940c901efbf85f.png)
-
-安装1完成
-
-![](media/0e4519835eb43c24aed724c005616775.png)
-
-安装2
-
-![](media/0d8aa0cef1506c9f12ba79b326260984.png)
-
-安装2完成
-
-![](media/8fbe79fee8f37143ddb37331b02be535.png)
-
-最后插入microbit主板
-
-![](media/d078dbe2eb6efd20e4007500c10edd0e.png)
-
-安装完成
-
-![](media/00beea1c2d1f87c6f562d7d5c909bc7f.png)
-
-## micro:bit基础课程：
+## 3.2 micro:bit基础课程：
 
 ### Project 1: 闪烁心
 
@@ -1933,23 +1525,25 @@ analogWrite()
 |工作温度：|-10℃~+50℃|光源：|SMD 5050 RGB|IC型号：|4颗/WS2811|
 |灰度等级：|256级|发光角度：|180°|发光颜色:|可以通过控制器调为红，黄，蓝，绿，白等|
 
-![](media/29efaf32be2cfacb8d2f8f3438772236.png)|
+![](media/29efaf32be2cfacb8d2f8f3438772236.png)
 
-3.添加NeoPixel库
+3.添加库文件
 
-1.  添加NeoPixel的库文件，添加方法如下:
+(注意：如果直接使用资料的代码则不用添加库文件，直接将代码文件拖进makecode软件里即可，如果需要自己编写代码则需要添加库文件)
+
+1.  添加IoT_Keyestudio的库文件，添加方法如下:
 
 利用库文件设置代码，在下图模块添加库文件，点击“扩展”。
 
 ![](media/44a8340a75b9bcf3ebab4113bed17137.png)
 
-（2）点击neoPixel 库，这样NeoPixel库就下载并安装好了。
+（2）在搜索框中输入链接：https://github.com/keyestudio2019/ks_IoT，然后单击搜索并搜索，显示如下图，点击”IoT_Keyestudio“库文件，这样IoT_Keyestudio库就下载并安装好了，NeoPixel库文件包含在IoT_Keyestudio库中。
 
-![](media/613fb9fcd09cbc472e8375d3a08fb1e7.png)
+![](media\image-20250627164649768.png)
 
 （3）在模块区域就可以看到对应的NeoPixel相关模块。
 
-![](media/8ab15d0d794982bb65e17c647f0b14fc.png)
+![](media\Snipaste_2025-06-27_16-50-34.png)
 
 4.示例代码1：
 
@@ -1964,7 +1558,7 @@ analogWrite()
 寻找指令方块：
 
 ![](media/c319fd9b38ca981db6b8f725dea2513c.png)
-![](media/89b0dae29992a4b3b4be988426cde520.png)
+![](media\Snipaste_2025-06-27_16-53-05.png)
 
 组合指令方块：
 
@@ -1998,9 +1592,9 @@ analogWrite()
 ![](media/c319fd9b38ca981db6b8f725dea2513c.png)
 ![](media/2cb7e3ba7d045d9f41bc5d9332b17ab9.png)
 
-![](media/516e08d6386a6c5025509c90cb6b9736.png)
+![](media\Snipaste_2025-06-27_16-54-42.png)
 
-![](media/7ab3069b8095637c0b75bf3f659f1284.png)
+![](media\Snipaste_2025-06-27_16-56-03.png)
 ![](media/fea38fd270c3ef5c2943169b064a7f45.png)
 
 组合指令方块：
@@ -2035,12 +1629,21 @@ analogWrite()
 ![](media/c319fd9b38ca981db6b8f725dea2513c.png)
 ![](media/2cb7e3ba7d045d9f41bc5d9332b17ab9.png)
 
-![](media/516e08d6386a6c5025509c90cb6b9736.png)
+![](media\Snipaste_2025-06-27_16-54-42.png)
 
 ![](media/d5a21bb656c2e04e71cfc718c0daf5a2.png)
 
-![](media/8b0e54c8c53f1af8cdb927a356fd0c6e.png)
-![](media/280edc069f3d4033b4058568f7b3bfb0.png)
+![](media\Snipaste_2025-06-27_16-59-34.png)
+
+![](media\Snipaste_2025-06-27_17-01-29.png)
+
+![](media\Snipaste_2025-06-27_17-04-38.png)
+
+![](media\Snipaste_2025-06-27_17-05-48.png)
+
+![](media\Snipaste_2025-06-27_17-06-40.png)
+
+![](media\Snipaste_2025-06-27_17-07-58.png)
 
 组合指令方块：
 
@@ -2407,9 +2010,11 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 |GND：一个接地的引脚|：一个连接到+5V电源的引脚||SDA：一个连接到SDA（或A4）的引脚，用于IIC通信|
 |SCL：一个连接到SCL（或A5）的引脚，用于IIC通信|背光（蓝底白字）|可调对比度|
 
-3.添加I2C LCD 1602库：
+3.添加库文件：
 
-（1）添加I2C LCD 1602模块的库，添加方法如下:
+(注意：如果直接使用资料的代码则不用添加库文件，直接将代码文件拖进makecode软件里即可，如果需要自己编写代码则需要添加库文件)
+
+（1）添加IoT_Keyestudio的库，添加方法如下:
 
 利用库文件设置代码，在下图模块添加库，点击“扩展”。
 

@@ -1,12 +1,10 @@
-# Python
+# 4. Python
 
 以下的步骤说明基于Windows操作系统，如果你使用的是其他操作系统，可以将其作为参考。
 
 本教程是为Python语言编写的，如果想要使用图形化代码编程，请参阅手册“Makecode Tutorial.pdf"。在您下载的资源的根目录中，有一个名为“Python tutorial”的文件夹，其中保存了Microbit smart home的所有Python代码，Python代码文件是以“.py”结尾的文件。
 
-
-
-## 1.Python
+## 4.1 Python
 
 Python是一种脚本语言，经过多年的发展，其生态已经非常庞大。目前火热的人工智能，很多都是使用Python编写的，值得我们去学习。
 
@@ -25,7 +23,7 @@ Micro:bit官方在线代码编写平台，使用常用浏览器直接打开上�
 
 本教程也基于在本地离线模式使用Mu软件作为Python代码编辑器来完成项目实验。
 
-## 2.Mu
+## 4.2 Mu
 
 Mu的官方网站：<https://codewith.mu/>
 
@@ -92,9 +90,9 @@ Mu的主界面如下图所示：
 
 ![](media/6bff3de63942f03c9e8f7136543a2a23.png)
 
-## micro:bit基础课程：
+## 4.3 micro:bit基础课程
 
-#### Project 1：Heart beat
+### Project 1：Heart beat
 
 1.  实验说明：
 
@@ -114,19 +112,9 @@ micro：bit”之后，单击“OK”。
 
 点击“Load”按钮，选择我们提供的示例代码“Project 1：Heart beat.py”文件，然后单击“打开”。加载文件路径如下表所示：
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 1：Heart beat|Project 1：Heart beat.py|
-
-
 
 
 ![](media/667d06ea01da6f06dfb04f3c51e57c15.png)
@@ -267,12 +255,6 @@ micro：bit”之后，单击“OK”。
 5.  代码说明：
 
 
-
-
-
-
-
-
 |from microbit import *|导入micro：bit的库文件|
 |-|-|
 |while True:|这是一个永久循环，它使micro：bit永远执行这个循环中的代码。|
@@ -303,14 +285,6 @@ micro：bit主板的LED点阵共由25个发光二极管组成，5个一组，分
 
 用Mu软件打开“Project 2：Single LED
 刷入ing.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -366,19 +340,9 @@ LED点阵对应的LED来实现LED点阵显示图案、数字、字符串。除�
 
 用Mu软件打开“Project 3：LED dot matrix display.py“，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |File Type|Route|File Name|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 3：LED点阵显示|Project 3：LED dot matrix display.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -426,19 +390,9 @@ micro：bit主板有三个按键，反面的是复位按钮，正面的是两个
 
 用Mu软件打开“Project 4：Programmable Buttons-1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 4：可编程按键|Project 4：Programmable Buttons-1.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -514,19 +468,9 @@ micro:bit主板实际上并不带温度传感器，而是采用nRF52833芯片内
 用Mu软件打开“Project 5：Temperature Measurement
 -1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 5：温度检测|Project 5：Temperature Measurement -1.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -553,19 +497,9 @@ micro:bit主板实际上并不带温度传感器，而是采用nRF52833芯片内
 
 用Mu软件打开“Project 5：Temperature Measurement-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 5：温度检测|Project 5：Temperature Measurement-2.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -656,14 +590,6 @@ micro:bit主板实际上并不带温度传感器，而是采用nRF52833芯片内
 用Mu软件打开“Project 6：Magnetic sensor
 -2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |File Type|Route|File Name|
 |-|-|-|
 |Python file|../Python 课程/Python 代码/microbit基础课程/Project 6：地磁传感器|Project 6：Magnetic sensor -2.py|
@@ -686,8 +612,6 @@ micro:bit主板实际上并不带温度传感器，而是采用nRF52833芯片内
 4.实验结果2：
 
 代码成功下载到micro：bit主板之后，利用micro USB数据线上电。micro:bit提示校准（校准方法请参考:上面代码1部分），校准完成后，旋转移动micro:bit主板，可以看到micro:bit主板上LED点阵显示方向图案。
-
-
 
 ### Project 7：加速度传感器
 
@@ -713,19 +637,9 @@ micro:bit V2主板内置有LSM303AGR
 用Mu软件打开“microbit-Three-axis acceleration sensor
 -1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 7：加速度传感器|Project 7：Accelerometer-1.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -777,19 +691,9 @@ micro:bit V2主板内置有LSM303AGR
 用Mu软件打开“microbit-Three-axis acceleration sensor
 -2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 7：加速度传感器|Project 7：Accelerometer-2.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）![](media/31f8f50a97b2b355ea3e192ff392c436.png)
@@ -812,8 +716,6 @@ micro:bit V2主板内置有LSM303AGR
 
 ![](media/6a69da93b22d1a2928ce84168bf90b72.png)
 
-
-
 ### Project 8：光照强度检测
 
 ![](media/8c3f540a07aab97e1608ba8770837f7b.png)
@@ -832,19 +734,9 @@ micro:bit V2主板内置有LSM303AGR
 
 用Mu软件打开“Project 8：Light Intensity Detection.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 8：光照强度检测|Project 8：Light Intensity Detection.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -865,8 +757,6 @@ micro:bit V2主板内置有LSM303AGR
 
 ![](media/3e57dcf70affd94014d13da9e40c30ee.png)
 
-
-
 ### Project 9：扬声器
 
 ![](media/ac515b9ae8891dc32f368a29f194a2fb.png)
@@ -885,19 +775,9 @@ micro:bit主板有内置扬声器，这使得在你的项目中添加声音变�
 
 用Mu软件打开“Project 9：Speaker-1 .py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 9：扬声器 |Project 9：Speaker-1.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -920,19 +800,9 @@ micro:bit主板有内置扬声器，这使得在你的项目中添加声音变�
 
 用Mu软件打开“Project 9：Speaker-2 .py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 9：扬声器 |Project 9：Speaker-2.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -977,19 +847,9 @@ micro:bit主板有内置扬声器，这使得在你的项目中添加声音变�
 用Mu软件打开“Project 10：Touch Sensitive Logo
 .py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|File Name|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 10：触摸感应LOGO |Project 10：Touch Sensitive Logo.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1044,19 +904,9 @@ micro:bit
 
 用Mu软件打开“Project 11：Microphone-1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 11：麦克风 |Project 11：Microphone-1.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1085,19 +935,9 @@ micro:bit
 
 用Mu软件打开“Project 11：Microphone-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 11：麦克风|Project 11：Microphone-2.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1116,8 +956,6 @@ micro:bit
 
 代码成功下载到micro：bit主板之后，利用micro USB数据线上电，并且，当你按下micro:bit主板上的A键时，micro:bit主板上的LED点阵显示检测到的此时环境中最大声音级别值（这里需要注意：通过按micro:bit背面的重置按钮重置最大值。）；当鼓掌时，测量的声音越大，LED点阵屏的25个LED就越亮。
 
-
-
 ### Project 12: 触摸Logo控制扬声器
 
 1.实验介绍:
@@ -1127,17 +965,9 @@ micro:bit
 2.所需组件:
 
 
-
-
-
-
-
-
 |![](media/bd678847c238cb7f6e3e74fb3b9deab6.png)|![](media/81bfee2741c94f7e5cb7f8ec66b83945.jpeg)|
 |-|-|
 |Micro:bit主板*1|Micro USB 线*1|
-
-
 
 
 3.实验接线:
@@ -1148,19 +978,9 @@ micro:bit
 
 用Mu软件打开“Project 12：Touch the Logo to control the speaker.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit基础课程/Project 12:触摸Logo控制扬声器|Project 12：Touch the Logo to control the speaker.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1182,20 +1002,12 @@ micro:bit
 6.代码说明：
 
 
-
-
-
-
-
-
 |from microbit import *|导入micro：bit的库文件|
 |-|-|
 |while True:|这是一个永久循环，它使micro：bit永远执行这个循环中的代码。|
 |display.show（Image.MUSIC_QUAVER）|microbit主板上的LED点阵显示音乐符号|
 |if pin_logo. is_touched( ):|如果microbit主板上的Logo标志被触摸时，执行以下命令|
 |music.play（music.BIRTHDAY）|microbit主板上的扬声器播放“生日歌”|
-
-
 
 
 ### Project 13：micro:bit的蓝牙无线通信
@@ -1206,7 +1018,7 @@ micro:bit
 
 <https://microbit-micropython.readthedocs.io/en/latest/ble.html>
 
-## micro:bit扩展课程：
+## 4.4 micro:bit扩展课程
 
 前面已经学习了micro:bit基础课程，现在，让我们直接进入micro:bit拓展课程项目。在这个套件中，包括14个传感器和模块。我们将从简单的传感器和模块入手，让你深入了解micro:bit智能家居功能。但是，如果你对micro:bit相关知识和各传感器/模块相关知识都掌握的很好。你可以跳过这些步骤，直接跳到最后一课实验项目实现micro:bit蓝牙控制micro:bit智能家居多功能效果。
 
@@ -1241,16 +1053,7 @@ LED，即发光二极管的简称。由含镓（Ga）、砷（As）、磷（P）
 |工作温度：|-10°C ~ +50°C|
 |LED显示颜色：|黄色|
 
-
-
-
 3.示例代码：
-
-
-
-
-
-
 
 
 |Microbit扩展板|黄色LED模块|
@@ -1259,25 +1062,12 @@ LED，即发光二极管的简称。由含镓（Ga）、砷（As）、磷（P）
 |5V|V|
 |S（16）|S|
 
-
-
-
 用Mu软件打开“Project 1：LED
 刷入ing.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 1：LED闪烁|Project 1：LED 刷入ing.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1299,12 +1089,6 @@ LED，即发光二极管的简称。由含镓（Ga）、砷（As）、磷（P）
 5.代码说明：
 
 
-
-
-
-
-
-
 |from microbit import *|导入micro：bit的库文件|
 |-|-|
 |display.show(Image.HAPPY)|microbit主板上的LED点阵显示“笑脸”图案|
@@ -1313,10 +1097,7 @@ LED，即发光二极管的简称。由含镓（Ga）、砷（As）、磷（P）
 |Pin16.write_digital(0)|控制引脚16输出低电平，熄灭LED|
 |sleep(1000)|延时1000毫秒|
 
-
-
-
-Project 2：LED亮度调节
+### Project 2：LED亮度调节
 
 ![](media/9ef7fe2f08cb904a3e3ba8713fabf3e1.png)
 
@@ -1328,8 +1109,7 @@ PWM是使用数字手段来控制模拟输出的一种手段。使用数字控�
 
 对于micro:bit的数字端口电压输出只有LOW与HIGH两个，对应的就是0V与3V的电压输出，可以把LOW定义为0，HIGH定义为1，1秒内让micro:bit输出500个0或者1的信号。如果这500个全部为1，那就是完整的3V，如果全部为0，那就是0V。如果010101010101这样输出，刚好一半，端口输出的平均电压就为1.5V了。这个和放映电影是一个道理，咱们所看的电影并不是完全连续的，它其实是每秒输出25张图片。在这种情况下，人的肉眼是分辨不出来的，看上去就是连续的了。PWM也是同样的道理，如果想要不同的电压，就控制0与1的输出比例控制就可以了。当然这和真实的连续输出还是有差别的，单位时间内输出的0,1信号越多，控制的就越精确。（输出电压=（开启时间/脉冲时间）\*最大电压值）  
 在下图中，绿线之间代表一个周期，其值也是PWM频率的倒数。换句话说，如果micro:bit的PWM频率是500Hz，那么两绿线之间的周期就是2毫秒。
-analogWrite()
-命令中可以操控的范围为0-255，analogWrite(255)表示100%占空比（常开），analogWrite(127)占空比大约为50%（一半的时间）。
+analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%占空比（常开），analogWrite(127)占空比大约为50%（一半的时间）。
 
 ![](media/704984700612966b997127cb9bde5c96.jpeg)
 
@@ -1367,14 +1147,7 @@ analogWrite()
 
 
 
-
 3.示例代码：
-
-
-
-
-
-
 
 
 |Microbit扩展板|黄色LED模块|
@@ -1387,14 +1160,6 @@ analogWrite()
 
 
 用Mu软件打开“Project 2：Breathing lamp.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1422,12 +1187,6 @@ analogWrite()
 5.代码说明：
 
 
-
-
-
-
-
-
 |from microbit import *|导入micro：bit的库文件|
 |-|-|
 |display.show(Image.HAPPY)|microbit主板上的LED点阵显示“笑脸”图案|
@@ -1435,8 +1194,6 @@ analogWrite()
 |for index in range(0, 255):|range()是一个函数， for index in range(0, 255)就是将0~255赋值给index|
 |pin16.write_analog(index)|控制引脚16模拟输出index|
 |sleep(10)|延时10毫秒|
-
-
 
 
 ### Project 3：6812 2x2全彩RGB
@@ -1454,32 +1211,14 @@ analogWrite()
 
 
 
-
-
-
-
 ![](media/29efaf32be2cfacb8d2f8f3438772236.png)
-
-
-
-
 
 |工作电压：|DC 3.3-5V|最大工作电流：|200mA|最大功率:|1W|
 |-|-|-|-|-|-|
 |工作温度：|-10℃~+50℃|光源：|SMD 5050 RGB|IC型号：|4颗/WS2811|
 |灰度等级：|256级|发光角度：|180°|发光颜色:|可以通过控制器调为红，黄，蓝，绿，白等|
 
-
-
-
-
 3.示例代码1：
-
-
-
-
-
-
 
 
 |Microbit扩展板|6812 2x2全彩RGB模块|
@@ -1489,23 +1228,11 @@ analogWrite()
 |S（14）|S|
 
 
-
-
 用Mu软件打开“Project 3：6812 2x2 full color RGB-1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 3：6812 2x2全彩RGB|Project 3：6812 2x2 full color RGB-1.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1531,19 +1258,9 @@ analogWrite()
 
 用Mu软件打开“Project 3：6812 2x2 full color RGB-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 3：6812 2x2全彩RGB|Project 3：6812 2x2 full color RGB-2.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1629,8 +1346,6 @@ analogWrite()
 |触发方式:|L 不可重复触发/H 重复触发|
 
 
-
-
 特别说明：
 
 （1）测试过程中最大距离为4米。
@@ -1646,12 +1361,6 @@ analogWrite()
 3.示例代码：
 
 
-
-
-
-
-
-
 |Microbit扩展板|人体红外热释电传感器|
 |-|-|
 |GND|G|
@@ -1659,23 +1368,11 @@ analogWrite()
 |S（15）|S|
 
 
-
-
 用Mu软件打开“Project 4：PIR motion sensor.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python课程/Python代码/microbit扩展课程/Project 4：人体红外热释电传感器|Project 4：PIR motion sensor.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1703,23 +1400,11 @@ analogWrite()
 
 在前面的项目实验中，我们已经了解了人体红外热释电传感器的工作原理及其控制方法。在本项目实验中，我们结合人体红外热释电传感器和黄色LED，通过人体红外热释电传感器来控制LED的亮、灭，模拟生活中的感应灯。
 
-
-
 用Mu软件打开“Project 5：sensor light.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 5：感应灯|Project 5：sensor light.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1735,8 +1420,6 @@ analogWrite()
 4.实验现象：
 
 将示例代码下载到micro:bit主板，并且外接电源供电，将扩展板上的拨码开关拨到ON端，再将船型开关上的“1”端按下。microbit主板上的LED点阵显示“笑脸”图案，当人体红外热释电传感器检测到附近有人运动时，黄色LED灯点亮；否则，当人体红外热释电传感器未检测到附近有人运动时，黄色LED灯熄灭。
-
-
 
 ### Project 6：舵机角度调节
 
@@ -1757,14 +1440,6 @@ analogWrite()
 
 经过实测，舵机的脉冲范围为0.65ms~2.5ms。180度舵机，对应的控制关系是这样的：
 
-
-
-
-
-
-
-
-
 |高电平时间|舵机角度|基准信号周期时间（20ms）|
 |-|-|-|
 |0.65ms|0度|0.65ms高电平+19.35ms低电平|
@@ -1772,19 +1447,9 @@ analogWrite()
 |2.5ms|180度|2.5ms高电平+17.5ms低电平|
 
 
-
-
-
-
 这里要注意，不要使用电脑和USB数据线供电，因为如果电流需求大于500mA，会有烧坏舵机的可能，推荐使用电池外置供电。
 
 4.示例代码：
-
-
-
-
-
-
 
 
 |Microbit扩展板|舵机|
@@ -1794,23 +1459,11 @@ analogWrite()
 |S（8）|橙线|
 
 
-
-
 用Mu软件打开“Project 6：adjust the angle of a servo.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 6：舵机角度调节|Project 6：adjust the angle of a servo.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1845,27 +1498,12 @@ analogWrite()
 
 ![](media/2498f64be175011ed8b3263749146e4f.png)
 
-
-
-
-
 |工作电压：|3.3-5V(DC)|最大电流：|200mA (DC5V)|
 |-|-|-|-|
 |最大功率：|1W|控制接口：|双数字口（数字输入）|
 |工作温度：|-10°C ~+50°C|环保属性：|ROHS|
 
-
-
-
-
-
 3.示例代码1：（高低电平控制）
-
-
-
-
-
-
 
 
 |Microbit扩展板|电机|
@@ -1876,23 +1514,11 @@ analogWrite()
 |S（12）|IN-|
 
 
-
-
 用Mu软件打开“Project 7：Small fan rotation-1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 7：小风扇转动|Project 7：Small fan rotation-1.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1911,19 +1537,9 @@ analogWrite()
 
 用Mu软件打开“Project 7：Small fan rotation-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
 
-
-
-
-
-
-
-
-
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python代码/microbit扩展课程/Project 7：小风扇转动|Project 7：Small fan rotation-2.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1951,12 +1567,6 @@ analogWrite()
 2.模块规格参数：
 
 
-
-
-
-
-
-
 |充电接口|Micro USB 与 HP2.0MM太阳能板接口|
 |-|-|
 |太阳能板接口输入电压|4.4-6V|
@@ -1967,8 +1577,6 @@ analogWrite()
 |最大输出电流|800mA|
 |外接电池|单节锂电池|
 |环保属性|ROHS|
-
-
 
 
 3.模块的原理图：
@@ -2007,32 +1615,13 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 2.1602 I2C模块规格参数：
 
 
-
-
-
-
-
-
-
-
-
-
 |工作电压：|DC5V|I2C地址：|0x27|控制接口：|I2C|
 |-|-|-|-|-|-|
 |工作电流：|&lt; 130mA|工作环境温度：|0°C ~ 45°C（推荐）|驱动芯片：|PCF8574T|
 |GND：一个接地的引脚|VCC：一个连接到+5V电源的引脚|SDA：一个连接到SDA（或A4）的引脚，用于IIC通信|
 |SCL：一个连接到SCL（或A5）的引脚，用于IIC通信|背光（蓝底白字）|可调对比度|
 
-
-
-
 3.示例代码：
-
-
-
-
-
-
 
 
 |Microbit扩展板|1602 LCD 模块|
@@ -2043,23 +1632,11 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 |SCL|SCL|
 
 
-
-
 用Mu软件打开“Project 7：Small fan rotation-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 9：1602 LCD|Project 9：1602 LCD.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -2100,24 +1677,13 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 ![](media/3b0760476232188966281131ba9da7e5.png)
 
 
-
-
 |工作电压：|DC 3.3-5V|
 |-|-|
 |工作温度范围：|－10℃～＋70℃|
 |最大工作电流：|5uA (DC5V，或者当水滴传感器两脚直接短接)|
 |控制接口：|模拟输出|
 
-
-
-
 3.示例代码：
-
-
-
-
-
-
 
 
 |Microbit扩展板|水滴水蒸气传感器|
@@ -2127,23 +1693,11 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 |S(0)|S|
 
 
-
-
 用Mu软件打开“Project 10：Drop sensor.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 10：水滴水蒸气传感器|Project 10：Drop sensor.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -2170,23 +1724,11 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 
 水滴水蒸气传感器在生活中应用是比较广泛的，例如：下雨警报器，汽车自动刮水系统、智能灯光系统和智能天窗系统等。在前面的项目实验中，我们已经知道了水滴水蒸气传感器的工作原理，那么在本项目实验中，我们将水滴水蒸气传感器，microbit上的扬声器和黄色LED相结合，制作一个简单的下雨警报器。
 
-
-
 用Mu软件打开“Project 11：The rain warning.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 11：下雨警报|Project 11：The rain warning.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -2242,8 +1784,6 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 |敏感体表面电阻（Rs）|2KΩ-20KΩ(in 2000ppm C3H8 )|
 
 
-
-
 MQ-2特点：
 
 （1）具有信号输出指示。
@@ -2264,12 +1804,6 @@ MQ-2特点：
 3.示例代码：
 
 
-
-
-
-
-
-
 |Microbit扩展板|模拟气体(MQ-2)传感器|
 |-|-|
 |GND|G|
@@ -2277,23 +1811,11 @@ MQ-2特点：
 |S（1）|D|
 
 
-
-
 用Mu软件打开“Project 12：Analog gas (MQ-2) sensor.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 12：模拟气体(MQ-2)传感器|Project 12：Analog gas (MQ-2) sensor.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -2322,23 +1844,11 @@ MQ-2特点：
 
 那么在本项目实验中，我们将模拟气体(MQ-2)传感器、黄色LED、microbit主板上的扬声器和1602LCD相结合，也来模拟一个简易的气体泄露检测仪。
 
-
-
 用Mu软件打开“Project 13：Gas leak detector.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 13：气体泄露检测仪|Project 13：Gas leak detector.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -2366,14 +1876,6 @@ MQ-2特点：
 2.示例代码：
 
 用Mu软件打开“Project 14：multi-function.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -2405,8 +1907,3 @@ MQ-2特点：
 3.实验现象：
 
 按照之前的方式将示例代码下载到micro:bit主板，并且外接电源供电，将扩展板上的拨码开关拨到ON端，再将船型开关上的“1”端按下。Microbit主板上的LED点阵显示“笑脸”图案，当水滴水蒸气传感器的模拟值＞400时，6812 2x2全彩RGB模块上的5个WS2812RGB灯全亮，且颜色依次红、橙、黄、绿、蓝、靛蓝、紫罗兰、紫、白，接着窗户关闭，门转动，小风扇转动；否则，窗户打开，门又转动，小风扇不转，。用打火机气体对着模拟气体（MQ-2）传感器时，1602 LCD第一行显示“MQ-2”，第二行显示“gas leakage”，同时microbit主板上的扬声器发出急促的“滴滴”声音，黄色LED闪烁；否则，扬声器不发声，黄色LED熄灭，1602 LCD不显示。
-
-
-
-
-
