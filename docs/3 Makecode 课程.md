@@ -1427,7 +1427,7 @@ LED，即发光二极管的简称。由含镓（Ga）、砷（As）、磷（P）
 （[如何下载代码到Micro bit板?](#_Toc26875)
 [如何快速下载代码到Micro bit板?](#快速下载)）Ctrl＋鼠标右击能跳转到相应页面
 
-Project 2：LED亮度调节
+### Project 2：LED亮度调节
 
 ![](media/1b75ff37c28a8008ad7c2dbe3408a9df.png)
 
