@@ -283,8 +283,7 @@ micro：bit主板的LED点阵共由25个发光二极管组成，5个一组，分
 
 3\. 示例代码：
 
-用Mu软件打开“Project 2：Single LED
-刷入ing.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 2：Single LED刷入ing.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -338,7 +337,7 @@ LED点阵对应的LED来实现LED点阵显示图案、数字、字符串。除�
 
 3\. 示例代码：
 
-用Mu软件打开“Project 3：LED dot matrix display.py“，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 3：LED dot matrix display.py“，加载代码的路径如下： 
 
 |File Type|Route|File Name|
 |-|-|-|
@@ -388,7 +387,7 @@ micro：bit主板有三个按键，反面的是复位按钮，正面的是两个
 
 3\. 示例代码1：
 
-用Mu软件打开“Project 4：Programmable Buttons-1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 4：Programmable Buttons-1.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -413,15 +412,7 @@ micro：bit主板有三个按键，反面的是复位按钮，正面的是两个
 
 5.示例代码2：
 
-用Mu软件打开“Project 4：Programmable Buttons-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
-
-
-
-
-
-
-
-
+用Mu软件打开“Project 4：Programmable Buttons-2.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -465,8 +456,7 @@ micro:bit主板实际上并不带温度传感器，而是采用nRF52833芯片内
 
 3\. 示例代码1：
 
-用Mu软件打开“Project 5：Temperature Measurement
--1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 5：Temperature Measurement-1.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -495,7 +485,7 @@ micro:bit主板实际上并不带温度传感器，而是采用nRF52833芯片内
 
 5.示例代码2：
 
-用Mu软件打开“Project 5：Temperature Measurement-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 5：Temperature Measurement-2.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -539,16 +529,7 @@ micro:bit主板实际上并不带温度传感器，而是采用nRF52833芯片内
 
 3\. 示例代码1：
 
-用Mu软件打开“Project 6：Magnetic sensor
--1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
-
-
-
-
-
-
-
-
+用Mu软件打开“Project 6：Magnetic sensor-1.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -587,8 +568,7 @@ micro:bit主板实际上并不带温度传感器，而是采用nRF52833芯片内
 
 ![](media/d1a4e9f62bdf690ba809ae35c347b233.png)
 
-用Mu软件打开“Project 6：Magnetic sensor
--2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 6：Magnetic sensor-2.py“文件，加载代码的路径如下： 
 
 |File Type|Route|File Name|
 |-|-|-|
@@ -619,8 +599,7 @@ micro:bit主板实际上并不带温度传感器，而是采用nRF52833芯片内
 
 1.  实验说明：
 
-micro:bit V2主板内置有LSM303AGR
-重力加速度传感器（加速度计），其具有8/10/12 bits的分辨率，代码可设置量程为1g、2g、4g,、8g。
+micro:bit V2主板内置有LSM303AGR重力加速度传感器（加速度计），其具有8/10/12 bits的分辨率，代码可设置量程为1g、2g、4g,、8g。
 
 我们常使用加速度计来检测机器的姿态。
 
@@ -634,8 +613,7 @@ micro:bit V2主板内置有LSM303AGR
 
 3\. 示例代码1：
 
-用Mu软件打开“microbit-Three-axis acceleration sensor
--1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“microbit-Three-axis acceleration sensor-1.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -672,8 +650,7 @@ micro:bit V2主板内置有LSM303AGR
 
 同理，当屏幕朝下（指的是LED点阵朝下）时，LED点阵显示数字5。
 
-当micro:bit
-主板向左倾斜（是指LED点阵先朝上，然后再往左边倾斜）时，LED点阵显示数字6。如下图所示：
+当micro:bit主板向左倾斜（是指LED点阵先朝上，然后再往左边倾斜）时，LED点阵显示数字6。如下图所示：
 
 ![](media/326095934bcff0a925b4f9a09d6cf7d2.jpeg)
 
@@ -683,13 +660,11 @@ micro:bit V2主板内置有LSM303AGR
 
 当不小心碰到micro:bit主板使其从桌面掉落，则为做自由落体运动，此时，micro:bit主板满足自由落体的条件，则LED点阵显示数字8。（注意：此方法操作时，很容易把micro:bit主板摔坏，不建议操作）
 
-注意：（3g、6g、8g，
-如果需要满足此条件，则需要达到3倍，6倍，8倍重力加速度甩动micro:bit主板。如果你们有兴趣的话，这部分代码可以自己添加）
+注意：（3g、6g、8g，如果需要满足此条件，则需要达到3倍，6倍，8倍重力加速度甩动micro:bit主板。如果你们有兴趣的话，这部分代码可以自己添加）
 
 5.示例代码2：
 
-用Mu软件打开“microbit-Three-axis acceleration sensor
--2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“microbit-Three-axis acceleration sensor-2.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -732,7 +707,7 @@ micro:bit V2主板内置有LSM303AGR
 
 3.  示例代码：
 
-用Mu软件打开“Project 8：Light Intensity Detection.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 8：Light Intensity Detection.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -773,7 +748,7 @@ micro:bit主板有内置扬声器，这使得在你的项目中添加声音变�
 
 3.示例代码1：
 
-用Mu软件打开“Project 9：Speaker-1 .py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 9：Speaker-1 .py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -798,7 +773,7 @@ micro:bit主板有内置扬声器，这使得在你的项目中添加声音变�
 
 5.示例代码2：
 
-用Mu软件打开“Project 9：Speaker-2 .py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 9：Speaker-2 .py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -844,8 +819,7 @@ micro:bit主板有内置扬声器，这使得在你的项目中添加声音变�
 
 3.示例代码：
 
-用Mu软件打开“Project 10：Touch Sensitive Logo
-.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 10：Touch Sensitive Logo.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|File Name|
 |-|-|-|
@@ -902,7 +876,7 @@ micro:bit
 
 3.示例代码：
 
-用Mu软件打开“Project 11：Microphone-1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 11：Microphone-1.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -933,7 +907,7 @@ micro:bit
 
 5.示例代码2：
 
-用Mu软件打开“Project 11：Microphone-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 11：Microphone-2.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -976,7 +950,7 @@ micro:bit
 
 4.示例代码:
 
-用Mu软件打开“Project 12：Touch the Logo to control the speaker.py“文件，加载代码的路径如下：（[How to load the project code?](#AS)）
+用Mu软件打开“Project 12：Touch the Logo to control the speaker.py“文件，加载代码的路径如下： 
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1063,7 +1037,7 @@ LED，即发光二极管的简称。由含镓（Ga）、砷（As）、磷（P）
 |S（16）|S|
 
 用Mu软件打开“Project 1：LED
-刷入ing.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+刷入ing.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1159,7 +1133,7 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 
 
 
-用Mu软件打开“Project 2：Breathing lamp.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 2：Breathing lamp.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1228,7 +1202,7 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 |S（14）|S|
 
 
-用Mu软件打开“Project 3：6812 2x2 full color RGB-1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 3：6812 2x2 full color RGB-1.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1256,7 +1230,7 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 
 5.示例代码2：
 
-用Mu软件打开“Project 3：6812 2x2 full color RGB-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 3：6812 2x2 full color RGB-2.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1282,21 +1256,11 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 
 7.示例代码3：
 
-用Mu软件打开“Project 3：6812 2x2 full color RGB-3.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
-
-
-
-
-
-
-
-
+用Mu软件打开“Project 3：6812 2x2 full color RGB-3.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
 |Python file|../Python 课程/Python代码/microbit扩展课程/Project 3：6812 2x2全彩RGB|Project 3：6812 2x2 full color RGB-3.py|
-
-
 
 
 加载完成后，如下图所示。你也可以打开Mu软件，在编辑窗口输入代码。（注意！所有英文及符号均须以英文填写，最后一行必须有空格。）
@@ -1368,7 +1332,7 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 |S（15）|S|
 
 
-用Mu软件打开“Project 4：PIR motion sensor.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 4：PIR motion sensor.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1400,7 +1364,7 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 
 在前面的项目实验中，我们已经了解了人体红外热释电传感器的工作原理及其控制方法。在本项目实验中，我们结合人体红外热释电传感器和黄色LED，通过人体红外热释电传感器来控制LED的亮、灭，模拟生活中的感应灯。
 
-用Mu软件打开“Project 5：sensor light.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 5：sensor light.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1429,7 +1393,9 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 
 当我们在制作智能家居时，经常会将舵机和门、窗等固定在一起。这样，我们就可以利用舵机转动，带动门、窗等开或关，从而起到家居生活的智能化功能。在这课程中我们着重介绍下智能家居套件中的舵机的原理和使用方法。
 
-![](media/69be958142b773acdae33eeef12afed7.png)舵机是一种位置伺服的驱动器，主要是由外壳、电路板、无核心马达、齿轮与位置检测器所构成。与马达不同，我们一般控制马达的转速和方向。而舵机更多的是控制指定的角度。常用的舵机可旋转的角度范围是0°到180°。舵机引线为3线，分别用棕、红、橙三种颜色进行区分，舵机品牌和生产厂家不同，会有些许差异，使用之前需查看资料。我们使用的是最常见的舵机，棕、红、橙分别对应“电源负极，电源正极，控制信号”。
+![](media/69be958142b773acdae33eeef12afed7.png)
+
+舵机是一种位置伺服的驱动器，主要是由外壳、电路板、无核心马达、齿轮与位置检测器所构成。与马达不同，我们一般控制马达的转速和方向。而舵机更多的是控制指定的角度。常用的舵机可旋转的角度范围是0°到180°。舵机引线为3线，分别用棕、红、橙三种颜色进行区分，舵机品牌和生产厂家不同，会有些许差异，使用之前需查看资料。我们使用的是最常见的舵机，棕、红、橙分别对应“电源负极，电源正极，控制信号”。
 
 2.舵机的控制原理：
 
@@ -1459,7 +1425,7 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 |S（8）|橙线|
 
 
-用Mu软件打开“Project 6：adjust the angle of a servo.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 6：adjust the angle of a servo.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1514,7 +1480,7 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 |S（12）|IN-|
 
 
-用Mu软件打开“Project 7：Small fan rotation-1.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 7：Small fan rotation-1.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1535,7 +1501,7 @@ analogWrite()命令中可以操控的范围为0-255，analogWrite(255)表示100%
 
 4.示例代码2：（PWM调速控制）
 
-用Mu软件打开“Project 7：Small fan rotation-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 7：Small fan rotation-2.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1632,7 +1598,7 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 |SCL|SCL|
 
 
-用Mu软件打开“Project 7：Small fan rotation-2.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 7：Small fan rotation-2.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1693,7 +1659,7 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 |S(0)|S|
 
 
-用Mu软件打开“Project 10：Drop sensor.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 10：Drop sensor.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1724,7 +1690,7 @@ LCD非常适合打印数据和显示数字。可以显示32个字符(16x2)。在
 
 水滴水蒸气传感器在生活中应用是比较广泛的，例如：下雨警报器，汽车自动刮水系统、智能灯光系统和智能天窗系统等。在前面的项目实验中，我们已经知道了水滴水蒸气传感器的工作原理，那么在本项目实验中，我们将水滴水蒸气传感器，microbit上的扬声器和黄色LED相结合，制作一个简单的下雨警报器。
 
-用Mu软件打开“Project 11：The rain warning.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 11：The rain warning.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1811,7 +1777,7 @@ MQ-2特点：
 |S（1）|D|
 
 
-用Mu软件打开“Project 12：Analog gas (MQ-2) sensor.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 12：Analog gas (MQ-2) sensor.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1844,7 +1810,7 @@ MQ-2特点：
 
 那么在本项目实验中，我们将模拟气体(MQ-2)传感器、黄色LED、microbit主板上的扬声器和1602LCD相结合，也来模拟一个简易的气体泄露检测仪。
 
-用Mu软件打开“Project 13：Gas leak detector.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 13：Gas leak detector.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
@@ -1875,7 +1841,7 @@ MQ-2特点：
 
 2.示例代码：
 
-用Mu软件打开“Project 14：multi-function.py“文件，加载代码的路径如下：（[How to load the project code?](#AS))
+用Mu软件打开“Project 14：multi-function.py“文件，加载代码的路径如下：
 
 |文件类型|路径|文件名|
 |-|-|-|
