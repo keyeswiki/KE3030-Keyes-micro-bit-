@@ -4,6 +4,10 @@
 
 本教程是为Python语言编写的，如果想要使用图形化代码编程，请参阅手册“Makecode Tutorial.pdf"。在您下载的资源的根目录中，有一个名为“Python tutorial”的文件夹，其中保存了Microbit smart home的所有Python代码，Python代码文件是以“.py”结尾的文件。
 
+### 资源和代码：
+
+[该工具包的Python资源和代码下载点击此处](./Python资料.7z)
+
 ## 4.1 Python
 
 Python是一种脚本语言，经过多年的发展，其生态已经非常庞大。目前火热的人工智能，很多都是使用Python编写的，值得我们去学习。
