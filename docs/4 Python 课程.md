@@ -2,13 +2,13 @@
 
 以下的步骤说明基于Windows操作系统，如果你使用的是其他操作系统，可以将其作为参考。
 
-本教程是为Python语言编写的，如果想要使用图形化代码编程，请参阅手册“Makecode Tutorial.pdf"。在您下载的资源的根目录中，有一个名为“Python tutorial”的文件夹，其中保存了Microbit smart home的所有Python代码，Python代码文件是以“.py”结尾的文件。
+## 4.1 资料下载
 
-### 资源和代码：
+Python资料包含项目代码、USB驱动文件 等等，请先点击下载进行后续的学习！！！
 
-[该工具包的Python资源和代码下载点击此处](./Python资料.7z)
+**点击下载：**  [Python资料下载](./Python资料.7z)
 
-## 4.1 Python
+## 4.2 Python
 
 Python是一种脚本语言，经过多年的发展，其生态已经非常庞大。目前火热的人工智能，很多都是使用Python编写的，值得我们去学习。
 
@@ -27,7 +27,7 @@ Micro:bit官方在线代码编写平台，使用常用浏览器直接打开上�
 
 本教程也基于在本地离线模式使用Mu软件作为Python代码编辑器来完成项目实验。
 
-## 4.2 Mu
+## 4.3 Mu
 
 Mu的官方网站：<https://codewith.mu/>
 
@@ -55,8 +55,7 @@ Mu是一个面向初学者程序员的Python代码编辑器，它基于教师和
 
 这里我们概述了在Windows10系统上安装Mu所需的额外步骤（Windows的其他版本也将类似）。
 
-Mac OSX系统安装Mu方法对应链接：<https://codewith.mu/en/howto/1.1/install_macos>
-。
+Mac OSX系统安装Mu方法对应链接：<https://codewith.mu/en/howto/1.1/install_macos>。
 
 Windows 10 系统
 
@@ -94,7 +93,7 @@ Mu的主界面如下图所示：
 
 ![](media/6bff3de63942f03c9e8f7136543a2a23.png)
 
-## 4.3 micro:bit基础课程
+## 4.4 micro:bit基础课程
 
 ### Project 1：Heart beat
 
@@ -996,7 +995,11 @@ micro:bit
 
 <https://microbit-micropython.readthedocs.io/en/latest/ble.html>
 
-## 4.4 micro:bit扩展课程
+
+
+⚠️ <span style="color: rgb(255, 76, 65);">**重要提醒：由于micro：bit主板这个蓝牙属性，所以python教程 实现不了 MakeCode教程中 Project 14：XHT11温湿度传感器、Project 15：环境温湿度表、Project 17：蓝牙控制LED灯、Project 18：蓝牙智能家居 等课程一样的功能。**</span>
+
+## 4.5 micro:bit扩展课程
 
 前面已经学习了micro:bit基础课程，现在，让我们直接进入micro:bit拓展课程项目。在这个套件中，包括14个传感器和模块。我们将从简单的传感器和模块入手，让你深入了解micro:bit智能家居功能。但是，如果你对micro:bit相关知识和各传感器/模块相关知识都掌握的很好。你可以跳过这些步骤，直接跳到最后一课实验项目实现micro:bit蓝牙控制micro:bit智能家居多功能效果。
 
